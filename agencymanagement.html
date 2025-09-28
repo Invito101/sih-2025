@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<title>PM AJAY</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#1173d4",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+            },
+            fontFamily: {
+              "display": ["Public Sans"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-800 dark:text-slate-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-slate-200 dark:border-slate-800 px-10 py-3">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-4 text-slate-900 dark:text-white">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+</div>
+<h2 class="text-slate-900 dark:text-white text-lg font-bold leading-tight tracking-tight">PM-AJAY</h2>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary text-sm font-medium" href="#">Dashboard</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary text-sm font-medium" href="#">Projects</a>
+<a class="text-primary text-sm font-semibold" href="#">Agencies</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary text-sm font-medium" href="#">Reports</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary text-sm font-medium" href="#">Settings</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-500"> search </span>
+<input class="form-input w-full min-w-40 max-w-64 rounded-lg border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark py-2 pl-10 pr-4 text-sm text-slate-800 dark:text-slate-200 placeholder:text-slate-500 focus:border-primary focus:ring-primary" placeholder="Search"/>
+</div>
+<button class="md:hidden p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800">
+<span class="material-symbols-outlined text-slate-600 dark:text-slate-400"> menu </span>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAOL4TEfeHCuVBGVBno5cwpq-7xPOjfKrx-lRoGcCWq-LdNyuDzmgowszBJyo-qElO2x1jNUsNfhq-LBxB4xnwYtcnJOp1JIGFFAeuYXN-Eh1elPMxC888eQpedZBASfBJyqRLL11Dc7yjaO5CgULhmqY1v91vrlNptp7ggRSwZguo8IiwRiYoTgrjurlKE_Qde5snRj8P-PGKaiFFB-m0faQTAeO7kYNPQNSf00PjzOc_smXrLeDeI359tSS7OXXyEYq9LRbqwKQ");'></div>
+</div>
+</header>
+<main class="flex-1 px-4 sm:px-6 lg:px-10 py-8">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8">
+<div>
+<h1 class="text-3xl font-bold text-slate-900 dark:text-white">Implementing Agencies</h1>
+<p class="text-slate-500 dark:text-slate-400 mt-1">Manage and oversee the agencies responsible for executing project tasks.</p>
+</div>
+<button class="inline-flex items-center justify-center gap-2 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-white shadow-sm transition-all hover:bg-primary/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">
+<span class="material-symbols-outlined text-base"> add </span>
+                Add New Agency
+              </button>
+</div>
+<div class="bg-white dark:bg-slate-900/50 rounded-xl border border-slate-200 dark:border-slate-800">
+<div class="p-4 flex flex-col sm:flex-row gap-4 justify-between">
+<div class="relative w-full sm:max-w-xs">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-500"> search </span>
+<input class="form-input w-full rounded-lg border-slate-200 dark:border-slate-800 bg-background-light dark:bg-background-dark py-2 pl-10 pr-4 text-sm text-slate-800 dark:text-slate-200 placeholder:text-slate-500 focus:border-primary focus:ring-primary" placeholder="Search agencies..."/>
+</div>
+<div class="flex items-center gap-3">
+<button class="flex items-center gap-2 rounded-lg border border-slate-200 dark:border-slate-800 bg-transparent px-3 py-1.5 text-sm text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+<span>Status</span>
+<span class="material-symbols-outlined text-base"> expand_more </span>
+</button>
+<button class="flex items-center gap-2 rounded-lg border border-slate-200 dark:border-slate-800 bg-transparent px-3 py-1.5 text-sm text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+<span>Sector</span>
+<span class="material-symbols-outlined text-base"> expand_more </span>
+</button>
+<button class="flex items-center gap-2 rounded-lg border border-slate-200 dark:border-slate-800 bg-transparent px-3 py-1.5 text-sm text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800">
+<span>Location</span>
+<span class="material-symbols-outlined text-base"> expand_more </span>
+</button>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-sm text-left">
+<thead class="bg-slate-50 dark:bg-slate-800/50 text-xs text-slate-500 dark:text-slate-400 uppercase">
+<tr>
+<th class="px-6 py-3 font-medium" scope="col">Agency Name</th>
+<th class="px-6 py-3 font-medium" scope="col">Role</th>
+<th class="px-6 py-3 font-medium" scope="col">Responsibilities</th>
+<th class="px-6 py-3 font-medium" scope="col">Contact</th>
+<th class="px-6 py-3 font-medium text-center" scope="col">Assigned Projects</th>
+<th class="px-6 py-3 font-medium text-right" scope="col">Actions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/50">
+<td class="px-6 py-4 font-medium text-slate-900 dark:text-white whitespace-nowrap">National Infrastructure Corporation</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400">Lead Implementer</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400 max-w-xs truncate">Oversee project execution, coordinate with stakeholders</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400">contact@nic.gov</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400 text-center">3</td>
+<td class="px-6 py-4 text-right">
+<button class="font-medium text-primary hover:underline">View Details</button>
+</td>
+</tr>
+<tr class="border-b border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/50">
+<td class="px-6 py-4 font-medium text-slate-900 dark:text-white whitespace-nowrap">State Development Authority</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400">Regional Coordinator</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400 max-w-xs truncate">Manage regional project activities, ensure compliance</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400">contact@sda.gov</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400 text-center">2</td>
+<td class="px-6 py-4 text-right">
+<button class="font-medium text-primary hover:underline">View Details</button>
+</td>
+</tr>
+<tr class="border-b border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/50">
+<td class="px-6 py-4 font-medium text-slate-900 dark:text-white whitespace-nowrap">Local Governance Board</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400">Local Implementer</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400 max-w-xs truncate">Execute project tasks at the local level, report progress</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400">contact@lgb.gov</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400 text-center">4</td>
+<td class="px-6 py-4 text-right">
+<button class="font-medium text-primary hover:underline">View Details</button>
+</td>
+</tr>
+<tr class="border-b border-slate-200 dark:border-slate-800 hover:bg-slate-50 dark:hover:bg-slate-800/50">
+<td class="px-6 py-4 font-medium text-slate-900 dark:text-white whitespace-nowrap">Rural Development Agency</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400">Rural Coordinator</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400 max-w-xs truncate">Coordinate project activities in rural areas, ensure community engagement</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400">contact@rda.gov</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400 text-center">1</td>
+<td class="px-6 py-4 text-right">
+<button class="font-medium text-primary hover:underline">View Details</button>
+</td>
+</tr>
+<tr class="hover:bg-slate-50 dark:hover:bg-slate-800/50">
+<td class="px-6 py-4 font-medium text-slate-900 dark:text-white whitespace-nowrap">Urban Planning Department</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400">Urban Implementer</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400 max-w-xs truncate">Execute project tasks in urban areas, manage resources</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400">contact@upd.gov</td>
+<td class="px-6 py-4 text-slate-600 dark:text-slate-400 text-center">2</td>
+<td class="px-6 py-4 text-right">
+<button class="font-medium text-primary hover:underline">View Details</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</main>
+<footer class="border-t border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-8">
+<div class="flex flex-col md:flex-row items-center justify-between gap-4">
+<p class="text-sm text-slate-500 dark:text-slate-400">© 2025 PM-AJAY. All rights reserved.</p>
+<div class="flex items-center gap-6">
+<a class="text-sm text-slate-500 dark:text-slate-400 hover:text-primary dark:hover:text-primary" href="#">About</a>
+<a class="text-sm text-slate-500 dark:text-slate-400 hover:text-primary dark:hover:text-primary" href="#">Contact</a>
+<a class="text-sm text-slate-500 dark:text-slate-400 hover:text-primary dark:hover:text-primary" href="#">Privacy Policy</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+
+</body></html>
